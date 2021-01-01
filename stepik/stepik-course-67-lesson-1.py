@@ -92,9 +92,7 @@ for i in range(3):
 
 '''Робот'''
 
-
 number = int(input(''))
-"for number in range(1001):"
 if 0 <= number <= 1000:
     if number != 0 and number != 1000 and number % 100 != 11 and number % 10 == 1 or 0 < number < 99 and number != 11 and number % 10 == 1:
         print(number, "программист")
